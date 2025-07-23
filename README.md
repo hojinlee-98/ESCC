@@ -79,7 +79,7 @@ seurat_obj$RNA_snn_res.0.5 <- factor(seurat_obj$RNA_snn_res.0.5, levels = as.num
 
 # after subclustering step, the following figures should be checked
 
-mygenes <- c("PTPRC", "TP63", "EGFR", "DSG3", "MUC5B", "KRT7", "AGR2", "CD2", "CD3D", "CD3E", "MS4A1", "CD79A", "BANK1", "CD68", "CD14", "FCER1G", "DCN", "LUM", "COL1A2", "MYH11", "ACTA2", "LMOD1", "PECAM1", "CLDN5", "VWF")
+mygenes <- c("PTPRC", "TP63", "EGFR", "DSG3", "MUC5B", "KRT7", "AGR2", "CD2", "CD3D", "CD3E", "MS4A1", "CD79A", "BANK1", "BCL6", "AICDA", "RGS13", "MKI67", "TOP2A", "BACH2","CD68", "CD14", "FCER1G", "DCN", "LUM", "CR1", "CR1", "FCAMR", "COL1A2", "MYH11", "ACTA2", "LMOD1", "RGS5", "PECAM1", "CLDN5", "VWF", "PRDM1", "XBP1")
 
 fileidentity <- "lympoid_globalmarkergenes_fp"
 cairo_pdf(paste0(date, "_", project_name, "_", fileidentity, "_hj.pdf"), width = 4*5, height = 4*8, family="Arial")
